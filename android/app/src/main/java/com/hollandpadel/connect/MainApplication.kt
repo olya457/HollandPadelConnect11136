@@ -1,4 +1,4 @@
-package com.hollandcasinopadelconnect
+package com.hollandpadel.connect
 
 import android.app.Application
 import com.facebook.react.PackageList

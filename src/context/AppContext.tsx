@@ -16,7 +16,7 @@ const initialState: AppState = {
     {
       id: 'welcome',
       role: 'assistant',
-      text: "Welcome to Holland Casino Padel Connect. I'm your Club Assistant. I can help you with Padel rules and techniques, scoring, Academy lessons, your Scorebook, club services, parking reservations, and more.",
+      text: "Welcome to Holland Padel Connect. I'm your Club Assistant. I can help you with Padel rules and techniques, scoring, Academy lessons, your Scorebook, club services, parking reservations, and more.",
       createdAt: new Date('2026-09-03T18:30:00').toISOString(),
     },
   ],

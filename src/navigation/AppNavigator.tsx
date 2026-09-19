@@ -98,7 +98,7 @@ function SplashScreen({onDone}: {onDone: () => void}) {
           />
         </Animated.View>
         <Animated.View style={{opacity: textOpacity, transform: [{translateY: textOffset}]}}>
-          <Text style={styles.splashTitle}>Holland Casino</Text>
+          <Text style={styles.splashTitle}>Holland</Text>
           <Text style={styles.splashSubtitle}>PADEL CONNECT</Text>
         </Animated.View>
       </View>

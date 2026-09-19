@@ -16,7 +16,7 @@ export function ClubScreen({navigation}: any) {
   );
   return (
     <Screen>
-      <SectionTitle title="Club" subtitle="Holland Casino Padel Connect" />
+      <SectionTitle title="Club" subtitle="Holland Padel Connect" />
       <View style={styles.tabs}>
         {(['Offers', 'Services', 'Parking'] as ClubTab[]).map(item => <Pressable key={item} onPress={() => setTab(item)} style={[styles.tab, tab === item && styles.tabActive]}><Text style={[styles.tabText, tab === item && styles.tabTextActive]}>{item}</Text></Pressable>)}
       </View>

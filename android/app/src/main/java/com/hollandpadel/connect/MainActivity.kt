@@ -1,4 +1,4 @@
-package com.hollandcasinopadelconnect
+package com.hollandpadel.connect
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

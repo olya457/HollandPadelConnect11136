@@ -22,7 +22,7 @@ export function AssistantScreen() {
     <Screen>
       <View style={styles.header}>
         <Image source={require('../../assets/app-icon.png')} style={styles.avatar} />
-        <View><Text style={styles.title}>Club Assistant</Text><Text style={styles.status}><Text style={styles.online}>●</Text> Online · Holland Casino Padel Connect</Text></View>
+        <View><Text style={styles.title}>Club Assistant</Text><Text style={styles.status}><Text style={styles.online}>●</Text> Online · Holland Padel Connect</Text></View>
       </View>
       <View style={styles.messages}>
         {state.assistantMessages.map(message => <MessageBubble key={message.id} message={message} />)}
